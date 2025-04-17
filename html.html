@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYEMEZO MUGISHA BONHEUR | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="rainbow">CYEMEZO MUGISHA BONHEUR</span>
+        </div>
+        <button id="darkmode-toggle" aria-label="Toggle dark mode">
+            <span class="icon-sun"></span>
+            <span class="icon-moon"></span>
+        </button>
+    </header>
+    <nav>
+        <ul>
+            <li><button class="tablink active" data-tab="about">About Me</button></li>
+            <li><button class="tablink" data-tab="skills">Skills</button></li>
+            <li><button class="tablink" data-tab="experience">Experience</button></li>
+            <li><button class="tablink" data-tab="social">Social</button></li>
+            <li><button class="tablink" data-tab="contact">Contact</button></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" class="tabcontent active">
+            <h1 class="fade-in">Welcome! 👋 I'm CYEMEZO MUGISHA BONHEUR</h1>
+            <p class="slide-in-right">
+                I am a Rwandan citizen with a deep passion for technology, continuous learning, and problem solving. Over the years, I have developed strong expertise across web development, data analytics, advanced programming, and artificial intelligence. I thrive on building impactful, innovative digital solutions that empower individuals and organizations to reach their goals.
+            </p>
+            <p class="slide-in-right" style="animation-delay:0.3s">
+                My journey began with self-learning and curiosity, leading me to pursue formal studies in Computer Science. Since then, I have delivered multiple successful projects—from full-stack web applications and interactive dashboards to intelligent AI-powered systems. My work is driven by a desire to make a positive difference in the world through technology.
+            </p>
+            <p class="slide-in-right" style="animation-delay:0.6s">
+                I believe in lifelong learning, adaptability, and the power of collaboration. My mission is to help businesses and communities unlock the value of data and digital tools. If you're seeking a dedicated professional who combines technical skill with creativity and integrity, let's connect!
+            </p>
+            <div class="animated-words">
+                <span class="animated-word">Web Developer</span>
+                <span class="animated-word">Advanced Programmer</span>
+                <span class="animated-word">AI Developer</span>
+            </div>
+        </section>
+        <section id="skills" class="tabcontent">
+            <h2 class="scale-in">Skills</h2>
+            <ul class="skills-list">
+                <li>Web Development (HTML, CSS, JavaScript, React)</li>
+                <li>Programming (Python, Java, C++)</li>
+                <li>Data Analytics (Pandas, Power BI, Tableau)</li>
+                <li>AI/ML (TensorFlow, Keras, PyTorch)</li>
+                <li>Database (SQL, MongoDB)</li>
+                <li>DevOps (GitHub, Docker)</li>
+                <li>Responsive Design & UI/UX</li>
+            </ul>
+        </section>
+        <section id="experience" class="tabcontent">
+            <h2 class="slide-in-left">Experience & Background</h2>
+            <p class="fade-in-delay">
+                My journey in tech began with curiosity and self-learning, followed by formal studies in Computer Science. I have worked on various projects, including building full-stack web applications, developing data dashboards, and implementing AI models. My experience spans both individual and collaborative projects, always focusing on delivering high-quality, user-centric results.
+            </p>
+            <ul class="timeline">
+                <li>
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h3>2023 - Present</h3>
+                        <p>AI Developer & Data Analyst | Freelance Projects</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h3>2021 - 2023</h3>
+                        <p>Web Developer | Startups & Collaborations</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="timeline-dot"></span>
+                    <div>
+                        <h3>2017 - 2021</h3>
+                        <p>BSc in Computer Science | Rwanda</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="social" class="tabcontent">
+            <h2 class="bounce-in">Find Me Online</h2>
+            <p style="margin-bottom: 1.5rem;">
+                You can easily connect with me through my social media platforms listed below.<br>
+                Each link provides an opportunity to interact, ask questions, or stay up to date with my latest activities.<br>
+                If you visit my profiles, you can learn more about my professional journey, current projects, and thoughts on technology.<br>
+                These channels are open for collaboration, mentorship, and networking.<br>
+                Feel free to reach out for any inquiries, opportunities, or even a friendly conversation.<br>
+                I value every interaction from visitors to this website, so don't hesitate to start a dialogue with me today!
+            </p>
+            <div class="social-links">
+                <a href="https://twitter.com/cyemezobonheur" target="_blank" class="social twitter">Twitter</a>
+                <a href="https://linkedin.com/bonheurcyemezo" target="_blank" class="social linkedin">LinkedIn</a>
+                <a href="https://github.com/cyemezobonheur" target="_blank" class="social github">GitHub</a>
+                <a href="https://facebook.com/bonheurcyemezo" target="_blank" class="social facebook">Facebook</a>
+                <a href="mailto:cyemezobonheur0@gmail.com" class="social email">Email</a>
+            </div>
+        </section>
+        <section id="contact" class="tabcontent">
+            <h2 class="pop-in">Contact Me</h2>
+            <form id="contactForm" class="flip-in">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="formMessage"></div>
+            <p style="margin-top:1rem;opacity:0.8;">
+                I am open for job opportunities, collaborations, and freelance work.<br>
+                Please use the form above or reach out via social media!
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Made <span class="heart"></span> by CYEMEZO MUGISHA BONHEUR | Rwanda</p>
+    </footer>
+</body>
+</html>
